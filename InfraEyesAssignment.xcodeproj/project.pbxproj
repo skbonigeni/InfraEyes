@@ -137,24 +137,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7111CBD61DC88E57009E3725 /* Comments */ = {
+		7111CBD61DC88E57009E3725 /* CommentsViewController */ = {
 			isa = PBXGroup;
 			children = (
 				714887941DC7B99000D5CB2F /* CommentsViewController.h */,
 				714887951DC7B99000D5CB2F /* CommentsViewController.m */,
 				7148879C1DC7C2FA00D5CB2F /* InfraEyesCommentsTableViewCell */,
 			);
-			name = Comments;
+			name = CommentsViewController;
 			sourceTree = "<group>";
 		};
-		7111CBD71DC88E6A009E3725 /* Issues */ = {
+		7111CBD71DC88E6A009E3725 /* IssuesViewController */ = {
 			isa = PBXGroup;
 			children = (
 				714887531DC7B51D00D5CB2F /* ViewController.h */,
 				714887541DC7B51D00D5CB2F /* ViewController.m */,
 				7148879D1DC7C32200D5CB2F /* InfraEyesIssuesTableViewCell */,
 			);
-			name = Issues;
+			name = IssuesViewController;
 			sourceTree = "<group>";
 		};
 		7111CBD81DC88E7C009E3725 /* Network Classes */ = {
@@ -191,6 +191,8 @@
 			children = (
 				71C975141DC898F1001955C0 /* InfraEyesUtility.h */,
 				71C975151DC898F1001955C0 /* InfraEyesUtility.m */,
+				71C975171DC9C983001955C0 /* Reachability.h */,
+				71C975181DC9C983001955C0 /* Reachability.m */,
 			);
 			name = "Utillity Classes";
 			sourceTree = "<group>";
@@ -222,14 +224,12 @@
 			children = (
 				714887501DC7B51D00D5CB2F /* AppDelegate.h */,
 				714887511DC7B51D00D5CB2F /* AppDelegate.m */,
-				7111CBD71DC88E6A009E3725 /* Issues */,
-				7111CBD61DC88E57009E3725 /* Comments */,
+				7111CBD71DC88E6A009E3725 /* IssuesViewController */,
+				7111CBD61DC88E57009E3725 /* CommentsViewController */,
 				7111CBD81DC88E7C009E3725 /* Network Classes */,
 				7111CBD91DC88E8B009E3725 /* Model Classes */,
 				7111CBDA1DC88EA3009E3725 /* Images */,
 				7111CBDB1DC88EB1009E3725 /* Utillity Classes */,
-				71C975171DC9C983001955C0 /* Reachability.h */,
-				71C975181DC9C983001955C0 /* Reachability.m */,
 				714887561DC7B51D00D5CB2F /* Main.storyboard */,
 				7148875C1DC7B51D00D5CB2F /* Assets.xcassets */,
 				7148875E1DC7B51D00D5CB2F /* LaunchScreen.storyboard */,
