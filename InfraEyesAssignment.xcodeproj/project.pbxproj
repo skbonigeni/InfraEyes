@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262FC07928353DE24C4DBB81 /* libPods-InfraEyesAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8073221F8AB01AD2EDA6EC /* libPods-InfraEyesAssignmentTests.a */; };
+		7148874F1DC7B51D00D5CB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148874E1DC7B51D00D5CB2F /* main.m */; };
+		714887521DC7B51D00D5CB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887511DC7B51D00D5CB2F /* AppDelegate.m */; };
+		714887551DC7B51D00D5CB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887541DC7B51D00D5CB2F /* ViewController.m */; };
+		714887581DC7B51D00D5CB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714887561DC7B51D00D5CB2F /* Main.storyboard */; };
+		7148875B1DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 714887591DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodeld */; };
+		7148875D1DC7B51D00D5CB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7148875C1DC7B51D00D5CB2F /* Assets.xcassets */; };
+		714887601DC7B51D00D5CB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7148875E1DC7B51D00D5CB2F /* LaunchScreen.storyboard */; };
+		7148876B1DC7B51D00D5CB2F /* InfraEyesAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148876A1DC7B51D00D5CB2F /* InfraEyesAssignmentTests.m */; };
+		714887761DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887751DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.m */; };
+		714887851DC7B61300D5CB2F /* InfraEyesNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887841DC7B61300D5CB2F /* InfraEyesNetworkEngine.m */; };
+		7148878E1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148878D1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.m */; };
+		714887921DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887901DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.m */; };
+		714887931DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714887911DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.xib */; };
+		714887961DC7B99000D5CB2F /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887951DC7B99000D5CB2F /* CommentsViewController.m */; };
+		7148879A1DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714887981DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.m */; };
+		7148879B1DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714887991DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.xib */; };
+		714887A01DC7C39100D5CB2F /* InfraEyesCommentsModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148879F1DC7C39100D5CB2F /* InfraEyesCommentsModelObject.m */; };
+		714887A21DC7D04000D5CB2F /* back-transparent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 714887A11DC7D04000D5CB2F /* back-transparent@3x.png */; };
+		714887A41DC7D15100D5CB2F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 714887A31DC7D15100D5CB2F /* back.png */; };
+		71C975161DC898F1001955C0 /* InfraEyesUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C975151DC898F1001955C0 /* InfraEyesUtility.m */; };
+		71C975191DC9C983001955C0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C975181DC9C983001955C0 /* Reachability.m */; };
+		AEEEE078CD97F41715AD0F3B /* libPods-InfraEyesAssignmentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A8ECAF6BE0FD074AD363F3 /* libPods-InfraEyesAssignmentUITests.a */; };
+		BC21DAC2FAF92A314506FAD8 /* libPods-InfraEyesAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1FF4C03DEF0C5ABAF2162D /* libPods-InfraEyesAssignment.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		714887671DC7B51D00D5CB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714887421DC7B51D00D5CB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714887491DC7B51D00D5CB2F;
+			remoteInfo = InfraEyesAssignment;
+		};
+		714887721DC7B51D00D5CB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714887421DC7B51D00D5CB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714887491DC7B51D00D5CB2F;
+			remoteInfo = InfraEyesAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BBC59725AC934B269005E5B /* Pods-InfraEyesAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfraEyesAssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfraEyesAssignmentTests/Pods-InfraEyesAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1FF4C03DEF0C5ABAF2162D /* libPods-InfraEyesAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InfraEyesAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710DD86E0C161DD452ADD8E2 /* Pods-InfraEyesAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfraEyesAssignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfraEyesAssignmentUITests/Pods-InfraEyesAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7148874A1DC7B51D00D5CB2F /* InfraEyesAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfraEyesAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7148874E1DC7B51D00D5CB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		714887501DC7B51D00D5CB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		714887511DC7B51D00D5CB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		714887531DC7B51D00D5CB2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		714887541DC7B51D00D5CB2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		714887571DC7B51D00D5CB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7148875A1DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfraEyesAssignment.xcdatamodel; sourceTree = "<group>"; };
+		7148875C1DC7B51D00D5CB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7148875F1DC7B51D00D5CB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		714887611DC7B51D00D5CB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714887661DC7B51D00D5CB2F /* InfraEyesAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraEyesAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7148876A1DC7B51D00D5CB2F /* InfraEyesAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfraEyesAssignmentTests.m; sourceTree = "<group>"; };
+		7148876C1DC7B51D00D5CB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714887711DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraEyesAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		714887751DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfraEyesAssignmentUITests.m; sourceTree = "<group>"; };
+		714887771DC7B51D00D5CB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714887831DC7B61300D5CB2F /* InfraEyesNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfraEyesNetworkEngine.h; sourceTree = "<group>"; };
+		714887841DC7B61300D5CB2F /* InfraEyesNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfraEyesNetworkEngine.m; sourceTree = "<group>"; };
+		7148878C1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfraEyesIssuesModelObject.h; sourceTree = "<group>"; };
+		7148878D1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfraEyesIssuesModelObject.m; sourceTree = "<group>"; };
+		7148878F1DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfraEyesIssuesTableViewCell.h; sourceTree = "<group>"; };
+		714887901DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfraEyesIssuesTableViewCell.m; sourceTree = "<group>"; };
+		714887911DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfraEyesIssuesTableViewCell.xib; sourceTree = "<group>"; };
+		714887941DC7B99000D5CB2F /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		714887951DC7B99000D5CB2F /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
+		714887971DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfraEyesCommentsTableViewCell.h; sourceTree = "<group>"; };
+		714887981DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfraEyesCommentsTableViewCell.m; sourceTree = "<group>"; };
+		714887991DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfraEyesCommentsTableViewCell.xib; sourceTree = "<group>"; };
+		7148879E1DC7C39100D5CB2F /* InfraEyesCommentsModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfraEyesCommentsModelObject.h; sourceTree = "<group>"; };
+		7148879F1DC7C39100D5CB2F /* InfraEyesCommentsModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfraEyesCommentsModelObject.m; sourceTree = "<group>"; };
+		714887A11DC7D04000D5CB2F /* back-transparent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-transparent@3x.png"; sourceTree = "<group>"; };
+		714887A31DC7D15100D5CB2F /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		71C975141DC898F1001955C0 /* InfraEyesUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfraEyesUtility.h; sourceTree = "<group>"; };
+		71C975151DC898F1001955C0 /* InfraEyesUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfraEyesUtility.m; sourceTree = "<group>"; };
+		71C975171DC9C983001955C0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		71C975181DC9C983001955C0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		74EB3E0135677EE93EB44FBA /* Pods-InfraEyesAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfraEyesAssignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfraEyesAssignmentUITests/Pods-InfraEyesAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78A16ACFD4481BC00F5DD65F /* Pods-InfraEyesAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfraEyesAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfraEyesAssignment/Pods-InfraEyesAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		8B8073221F8AB01AD2EDA6EC /* libPods-InfraEyesAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InfraEyesAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA56668C27758885F329DFAD /* Pods-InfraEyesAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfraEyesAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfraEyesAssignmentTests/Pods-InfraEyesAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF1C5C32D6BFC352865C096D /* Pods-InfraEyesAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfraEyesAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfraEyesAssignment/Pods-InfraEyesAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A8ECAF6BE0FD074AD363F3 /* libPods-InfraEyesAssignmentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InfraEyesAssignmentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714887471DC7B51D00D5CB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC21DAC2FAF92A314506FAD8 /* libPods-InfraEyesAssignment.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714887631DC7B51D00D5CB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262FC07928353DE24C4DBB81 /* libPods-InfraEyesAssignmentTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7148876E1DC7B51D00D5CB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEEE078CD97F41715AD0F3B /* libPods-InfraEyesAssignmentUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDE6D029A792B5503D8DB86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1FF4C03DEF0C5ABAF2162D /* libPods-InfraEyesAssignment.a */,
+				8B8073221F8AB01AD2EDA6EC /* libPods-InfraEyesAssignmentTests.a */,
+				F4A8ECAF6BE0FD074AD363F3 /* libPods-InfraEyesAssignmentUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7111CBD61DC88E57009E3725 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				714887941DC7B99000D5CB2F /* CommentsViewController.h */,
+				714887951DC7B99000D5CB2F /* CommentsViewController.m */,
+				7148879C1DC7C2FA00D5CB2F /* InfraEyesCommentsTableViewCell */,
+			);
+			name = Comments;
+			sourceTree = "<group>";
+		};
+		7111CBD71DC88E6A009E3725 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				714887531DC7B51D00D5CB2F /* ViewController.h */,
+				714887541DC7B51D00D5CB2F /* ViewController.m */,
+				7148879D1DC7C32200D5CB2F /* InfraEyesIssuesTableViewCell */,
+			);
+			name = Issues;
+			sourceTree = "<group>";
+		};
+		7111CBD81DC88E7C009E3725 /* Network Classes */ = {
+			isa = PBXGroup;
+			children = (
+				714887831DC7B61300D5CB2F /* InfraEyesNetworkEngine.h */,
+				714887841DC7B61300D5CB2F /* InfraEyesNetworkEngine.m */,
+			);
+			name = "Network Classes";
+			sourceTree = "<group>";
+		};
+		7111CBD91DC88E8B009E3725 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7148878C1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.h */,
+				7148878D1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.m */,
+				7148879E1DC7C39100D5CB2F /* InfraEyesCommentsModelObject.h */,
+				7148879F1DC7C39100D5CB2F /* InfraEyesCommentsModelObject.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		7111CBDA1DC88EA3009E3725 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				714887A11DC7D04000D5CB2F /* back-transparent@3x.png */,
+				714887A31DC7D15100D5CB2F /* back.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7111CBDB1DC88EB1009E3725 /* Utillity Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71C975141DC898F1001955C0 /* InfraEyesUtility.h */,
+				71C975151DC898F1001955C0 /* InfraEyesUtility.m */,
+			);
+			name = "Utillity Classes";
+			sourceTree = "<group>";
+		};
+		714887411DC7B51D00D5CB2F = {
+			isa = PBXGroup;
+			children = (
+				7148874C1DC7B51D00D5CB2F /* InfraEyesAssignment */,
+				714887691DC7B51D00D5CB2F /* InfraEyesAssignmentTests */,
+				714887741DC7B51D00D5CB2F /* InfraEyesAssignmentUITests */,
+				7148874B1DC7B51D00D5CB2F /* Products */,
+				C1AAE95C6B72F321A8EF6A7F /* Pods */,
+				5FDE6D029A792B5503D8DB86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7148874B1DC7B51D00D5CB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7148874A1DC7B51D00D5CB2F /* InfraEyesAssignment.app */,
+				714887661DC7B51D00D5CB2F /* InfraEyesAssignmentTests.xctest */,
+				714887711DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7148874C1DC7B51D00D5CB2F /* InfraEyesAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				714887501DC7B51D00D5CB2F /* AppDelegate.h */,
+				714887511DC7B51D00D5CB2F /* AppDelegate.m */,
+				7111CBD71DC88E6A009E3725 /* Issues */,
+				7111CBD61DC88E57009E3725 /* Comments */,
+				7111CBD81DC88E7C009E3725 /* Network Classes */,
+				7111CBD91DC88E8B009E3725 /* Model Classes */,
+				7111CBDA1DC88EA3009E3725 /* Images */,
+				7111CBDB1DC88EB1009E3725 /* Utillity Classes */,
+				71C975171DC9C983001955C0 /* Reachability.h */,
+				71C975181DC9C983001955C0 /* Reachability.m */,
+				714887561DC7B51D00D5CB2F /* Main.storyboard */,
+				7148875C1DC7B51D00D5CB2F /* Assets.xcassets */,
+				7148875E1DC7B51D00D5CB2F /* LaunchScreen.storyboard */,
+				714887611DC7B51D00D5CB2F /* Info.plist */,
+				714887591DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodeld */,
+				7148874D1DC7B51D00D5CB2F /* Supporting Files */,
+			);
+			path = InfraEyesAssignment;
+			sourceTree = "<group>";
+		};
+		7148874D1DC7B51D00D5CB2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7148874E1DC7B51D00D5CB2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714887691DC7B51D00D5CB2F /* InfraEyesAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				7148876A1DC7B51D00D5CB2F /* InfraEyesAssignmentTests.m */,
+				7148876C1DC7B51D00D5CB2F /* Info.plist */,
+			);
+			path = InfraEyesAssignmentTests;
+			sourceTree = "<group>";
+		};
+		714887741DC7B51D00D5CB2F /* InfraEyesAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				714887751DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.m */,
+				714887771DC7B51D00D5CB2F /* Info.plist */,
+			);
+			path = InfraEyesAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		7148879C1DC7C2FA00D5CB2F /* InfraEyesCommentsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				714887991DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.xib */,
+				714887971DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.h */,
+				714887981DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.m */,
+			);
+			name = InfraEyesCommentsTableViewCell;
+			sourceTree = "<group>";
+		};
+		7148879D1DC7C32200D5CB2F /* InfraEyesIssuesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7148878F1DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.h */,
+				714887901DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.m */,
+				714887911DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.xib */,
+			);
+			name = InfraEyesIssuesTableViewCell;
+			sourceTree = "<group>";
+		};
+		C1AAE95C6B72F321A8EF6A7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF1C5C32D6BFC352865C096D /* Pods-InfraEyesAssignment.debug.xcconfig */,
+				78A16ACFD4481BC00F5DD65F /* Pods-InfraEyesAssignment.release.xcconfig */,
+				3BBC59725AC934B269005E5B /* Pods-InfraEyesAssignmentTests.debug.xcconfig */,
+				CA56668C27758885F329DFAD /* Pods-InfraEyesAssignmentTests.release.xcconfig */,
+				74EB3E0135677EE93EB44FBA /* Pods-InfraEyesAssignmentUITests.debug.xcconfig */,
+				710DD86E0C161DD452ADD8E2 /* Pods-InfraEyesAssignmentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714887491DC7B51D00D5CB2F /* InfraEyesAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7148877A1DC7B51D00D5CB2F /* Build configuration list for PBXNativeTarget "InfraEyesAssignment" */;
+			buildPhases = (
+				36B1C9E8F5393BBF31679E27 /* [CP] Check Pods Manifest.lock */,
+				714887461DC7B51D00D5CB2F /* Sources */,
+				714887471DC7B51D00D5CB2F /* Frameworks */,
+				714887481DC7B51D00D5CB2F /* Resources */,
+				9D9F1E939C38C98155DB7279 /* [CP] Embed Pods Frameworks */,
+				DDCAFD2A8F59F87F04B1E826 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfraEyesAssignment;
+			productName = InfraEyesAssignment;
+			productReference = 7148874A1DC7B51D00D5CB2F /* InfraEyesAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		714887651DC7B51D00D5CB2F /* InfraEyesAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7148877D1DC7B51D00D5CB2F /* Build configuration list for PBXNativeTarget "InfraEyesAssignmentTests" */;
+			buildPhases = (
+				F46ACCEB2297CE9E38CED7B6 /* [CP] Check Pods Manifest.lock */,
+				714887621DC7B51D00D5CB2F /* Sources */,
+				714887631DC7B51D00D5CB2F /* Frameworks */,
+				714887641DC7B51D00D5CB2F /* Resources */,
+				19AA6793DB945721309C8516 /* [CP] Embed Pods Frameworks */,
+				2992B6C480DF6277D4206A0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714887681DC7B51D00D5CB2F /* PBXTargetDependency */,
+			);
+			name = InfraEyesAssignmentTests;
+			productName = InfraEyesAssignmentTests;
+			productReference = 714887661DC7B51D00D5CB2F /* InfraEyesAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		714887701DC7B51D00D5CB2F /* InfraEyesAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714887801DC7B51D00D5CB2F /* Build configuration list for PBXNativeTarget "InfraEyesAssignmentUITests" */;
+			buildPhases = (
+				2474F7C1AAA4382D275B1575 /* [CP] Check Pods Manifest.lock */,
+				7148876D1DC7B51D00D5CB2F /* Sources */,
+				7148876E1DC7B51D00D5CB2F /* Frameworks */,
+				7148876F1DC7B51D00D5CB2F /* Resources */,
+				F91A7579EC750B5E7BF35F42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714887731DC7B51D00D5CB2F /* PBXTargetDependency */,
+			);
+			name = InfraEyesAssignmentUITests;
+			productName = InfraEyesAssignmentUITests;
+			productReference = 714887711DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714887421DC7B51D00D5CB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Satish;
+				TargetAttributes = {
+					714887491DC7B51D00D5CB2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TZ9Z2ZYYLG;
+					};
+					714887651DC7B51D00D5CB2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 714887491DC7B51D00D5CB2F;
+					};
+					714887701DC7B51D00D5CB2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 714887491DC7B51D00D5CB2F;
+					};
+				};
+			};
+			buildConfigurationList = 714887451DC7B51D00D5CB2F /* Build configuration list for PBXProject "InfraEyesAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714887411DC7B51D00D5CB2F;
+			productRefGroup = 7148874B1DC7B51D00D5CB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714887491DC7B51D00D5CB2F /* InfraEyesAssignment */,
+				714887651DC7B51D00D5CB2F /* InfraEyesAssignmentTests */,
+				714887701DC7B51D00D5CB2F /* InfraEyesAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714887481DC7B51D00D5CB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714887931DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.xib in Resources */,
+				714887A21DC7D04000D5CB2F /* back-transparent@3x.png in Resources */,
+				714887601DC7B51D00D5CB2F /* LaunchScreen.storyboard in Resources */,
+				7148879B1DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.xib in Resources */,
+				714887A41DC7D15100D5CB2F /* back.png in Resources */,
+				7148875D1DC7B51D00D5CB2F /* Assets.xcassets in Resources */,
+				714887581DC7B51D00D5CB2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714887641DC7B51D00D5CB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7148876F1DC7B51D00D5CB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19AA6793DB945721309C8516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfraEyesAssignmentTests/Pods-InfraEyesAssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2474F7C1AAA4382D275B1575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2992B6C480DF6277D4206A0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfraEyesAssignmentTests/Pods-InfraEyesAssignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B1C9E8F5393BBF31679E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D9F1E939C38C98155DB7279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfraEyesAssignment/Pods-InfraEyesAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCAFD2A8F59F87F04B1E826 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfraEyesAssignment/Pods-InfraEyesAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F46ACCEB2297CE9E38CED7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F91A7579EC750B5E7BF35F42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfraEyesAssignmentUITests/Pods-InfraEyesAssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714887461DC7B51D00D5CB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714887961DC7B99000D5CB2F /* CommentsViewController.m in Sources */,
+				714887A01DC7C39100D5CB2F /* InfraEyesCommentsModelObject.m in Sources */,
+				714887551DC7B51D00D5CB2F /* ViewController.m in Sources */,
+				7148878E1DC7B79C00D5CB2F /* InfraEyesIssuesModelObject.m in Sources */,
+				714887921DC7B8A900D5CB2F /* InfraEyesIssuesTableViewCell.m in Sources */,
+				714887851DC7B61300D5CB2F /* InfraEyesNetworkEngine.m in Sources */,
+				714887521DC7B51D00D5CB2F /* AppDelegate.m in Sources */,
+				7148875B1DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodeld in Sources */,
+				7148874F1DC7B51D00D5CB2F /* main.m in Sources */,
+				7148879A1DC7C2E600D5CB2F /* InfraEyesCommentsTableViewCell.m in Sources */,
+				71C975191DC9C983001955C0 /* Reachability.m in Sources */,
+				71C975161DC898F1001955C0 /* InfraEyesUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714887621DC7B51D00D5CB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7148876B1DC7B51D00D5CB2F /* InfraEyesAssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7148876D1DC7B51D00D5CB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714887761DC7B51D00D5CB2F /* InfraEyesAssignmentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		714887681DC7B51D00D5CB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714887491DC7B51D00D5CB2F /* InfraEyesAssignment */;
+			targetProxy = 714887671DC7B51D00D5CB2F /* PBXContainerItemProxy */;
+		};
+		714887731DC7B51D00D5CB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714887491DC7B51D00D5CB2F /* InfraEyesAssignment */;
+			targetProxy = 714887721DC7B51D00D5CB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		714887561DC7B51D00D5CB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714887571DC7B51D00D5CB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7148875E1DC7B51D00D5CB2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7148875F1DC7B51D00D5CB2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714887781DC7B51D00D5CB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		714887791DC7B51D00D5CB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7148877B1DC7B51D00D5CB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1C5C32D6BFC352865C096D /* Pods-InfraEyesAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InfraEyesAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.InfraEyesAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7148877C1DC7B51D00D5CB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A16ACFD4481BC00F5DD65F /* Pods-InfraEyesAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InfraEyesAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.InfraEyesAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7148877E1DC7B51D00D5CB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBC59725AC934B269005E5B /* Pods-InfraEyesAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfraEyesAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.InfraEyesAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfraEyesAssignment.app/InfraEyesAssignment";
+			};
+			name = Debug;
+		};
+		7148877F1DC7B51D00D5CB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA56668C27758885F329DFAD /* Pods-InfraEyesAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfraEyesAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.InfraEyesAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfraEyesAssignment.app/InfraEyesAssignment";
+			};
+			name = Release;
+		};
+		714887811DC7B51D00D5CB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EB3E0135677EE93EB44FBA /* Pods-InfraEyesAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = InfraEyesAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.InfraEyesAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InfraEyesAssignment;
+			};
+			name = Debug;
+		};
+		714887821DC7B51D00D5CB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710DD86E0C161DD452ADD8E2 /* Pods-InfraEyesAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = InfraEyesAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.InfraEyesAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InfraEyesAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714887451DC7B51D00D5CB2F /* Build configuration list for PBXProject "InfraEyesAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714887781DC7B51D00D5CB2F /* Debug */,
+				714887791DC7B51D00D5CB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7148877A1DC7B51D00D5CB2F /* Build configuration list for PBXNativeTarget "InfraEyesAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7148877B1DC7B51D00D5CB2F /* Debug */,
+				7148877C1DC7B51D00D5CB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7148877D1DC7B51D00D5CB2F /* Build configuration list for PBXNativeTarget "InfraEyesAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7148877E1DC7B51D00D5CB2F /* Debug */,
+				7148877F1DC7B51D00D5CB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714887801DC7B51D00D5CB2F /* Build configuration list for PBXNativeTarget "InfraEyesAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714887811DC7B51D00D5CB2F /* Debug */,
+				714887821DC7B51D00D5CB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		714887591DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7148875A1DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodel */,
+			);
+			currentVersion = 7148875A1DC7B51D00D5CB2F /* InfraEyesAssignment.xcdatamodel */;
+			path = InfraEyesAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 714887421DC7B51D00D5CB2F /* Project object */;
+}
